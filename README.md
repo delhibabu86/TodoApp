@@ -1,4 +1,5 @@
-# Todo App
+# Todo App [![Build Status](https://travis-ci.org/arnabk/TodoApp.svg?branch=master)](https://travis-ci.org/arnabk/TodoApp)
+
 ## Using React, Redux, Redux-saga
 
 A simple todo app built with the latest tech
