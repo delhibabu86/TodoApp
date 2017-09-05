@@ -16,7 +16,7 @@ import { lightTheme, darkTheme, SHOW_TYPE_ALL } from '../common/Constants';
 
 const Component = (props) => {
   const { text, addItem, onShowTypeChange, items, onTextChange, showType,
-          onItemClick, onDelete, themeName, onThemeChange } = props;
+    onItemClick, onDelete, themeName, onThemeChange } = props;
   const inputProps = { text, addItem, onTextChange };
   const showTypeProps = { onShowTypeChange, showType };
   const toDoItemProps = { items, showType, onItemClick, onDelete };
