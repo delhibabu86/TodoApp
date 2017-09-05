@@ -68,7 +68,7 @@
   "author": "Arnab Karmakar",
   "license": "MIT",
   "scripts": {
-    "test": "mocha --recursive **/__test__/**",
+    "test": "mocha --recursive src/actions/__tests__/other",
     "watch": "webpack --progress --colors --watch -d --devtool source-map --config ./webpack.dev.js",
     "build": "webpack --progress --colors -p --config ./webpack.prod.js",
     "start": "concurrently -k \"yarn watch\" \"http-server dist\"",
