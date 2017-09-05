@@ -1,0 +1,27 @@
+git:
+  depth: 1
+cache: yarn
+language: node_js
+matrix:
+  fast_finish: true
+node_js:
+- 7.1
+notifications:
+  email:
+  - arnab.k@gmail.com
+branches:
+  only:
+  - master
+before_install:
+- yarn
+install: yarn build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  local_dir: dist
+  on:
+    branch: master
+env:
+  global:
+    secure: pTRHG9YFn9fkSWxxv/nTRiRacn/Z4PdNp7cOMENILLnQayklk4Ht67E1wvCT0QfXdqHU9SzhNeU0XKVeW1zxm1x/hIyOwntB0xKgMbpxwkF1sSvj/joQyIRmqfLZGs1w1VH3asuPoO4SWlnQpuZDKI83A/RvJHyVnOBQPhKVAXP2Lh1jqe9HOj1W4uBqkh2dhOZkaykdvsdsy/A3RHZ1Tz2XNpGv60Kzc5nkg+loh0KMOgNSEPKRF7Kthc3chjlMJP2c4cbjgVEPLNY2cWGSYKQauUB3ixc7CPUg2zT6wWBThxSWAtrD7CcsxG2YK3+Eg+HzlW4LsKxwT184Akum/uKb/uxWDF0JdB1/sG2s0Uu5cWR2ne2iL0mig/+pavOAfg5Zzeho22RMl1v8fHatYZumXyK5PA9NT3kyNousfKrNKW5PYwlsMCPra5viEBBmYTD5g+K9jVkoBRTSGGkrALaDMD+3pr8nnwRvxKmzZK8mK9vGwILUAjvOhKqkR+KcMMo57TRoDEC1xdlkqXKskayN8xGnMXE+iHue8dciJyIBwGwVZAvAYWt3uPelC45fX3XydMcdvFJtnHmCmMj1LrUtlgcpm36vaNeBnGINfM+G8neM7hRYTccxruClLdVgwxc9Vo4Dfk/k+A7zc2A9Xw9nOWZJkQKmLr1I2LykJzE=
