@@ -32,6 +32,7 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
     "babel-runtime": "^6.11.6",
+    "caniuse-api": "^2.0.0",
     "chai": "^4.1.1",
     "clean-webpack-plugin": "^0.1.10",
     "concurrently": "^3.2.0",
