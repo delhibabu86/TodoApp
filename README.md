@@ -17,7 +17,7 @@ For building everything for production
 
 - Add tests with mocha
 - Add persistence local storage
-- Add option to just show active items and not the completed items
+- Add option to just show active items and not the completed items 
 
 
 ## Validity check of package.json
