@@ -116,6 +116,6 @@
     ],
     "sourceMap": false,
     "instrument": false,
-    "reporter": ["html", "text"]
+    "reporter": ["html", "text", "text-lcov"]
   }
 }
