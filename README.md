@@ -1,4 +1,4 @@
-# Todo App [![Build Status](https://travis-ci.org/arnabk/TodoApp.svg?branch=master)](https://travis-ci.org/arnabk/TodoApp)
+# Todo App [![Build Status](https://travis-ci.org/arnabk/TodoApp.svg?branch=master)](https://travis-ci.org/arnabk/TodoApp) [![Coverage Status](https://coveralls.io/repos/github/arnabk/TodoApp/badge.svg?branch=master)](https://coveralls.io/github/arnabk/TodoApp?branch=master)
 
 ## Using React, Redux, Redux-saga
 
