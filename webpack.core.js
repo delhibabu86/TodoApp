@@ -23,20 +23,7 @@ module.exports = {
                 test: /\.(js$|jsx$)/,
                 loader: 'babel-loader',
                 include: [path.resolve(__dirname, 'src')],
-                exclude: /node_modules/,
-                query: {
-                    plugins: [
-                        "transform-runtime",
-                        "typecheck",
-                        "transform-decorators-legacy",
-                        "transform-class-properties",
-                        "add-module-exports",
-                        "import-asserts",
-                        "syntax-async-functions",
-                        "transform-regenerator",
-                    ],
-                    presets: ['es2015', 'stage-0', 'react']
-                }
+                exclude: /node_modules/
             },
             {
                test: /(\.js$|\.jsx$)/,

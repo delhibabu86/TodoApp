@@ -1,5 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea
-.vscode
-node_modules
-dist
+/.idea/
+/.vscode/
+/node_modules/
+/dist/
+/.nyc_output/
+/coverage/

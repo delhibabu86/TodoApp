@@ -6,16 +6,25 @@ A simple todo app built with the latest tech
 
 ## How to work in this project
 
+Development
+
     $ yarn 
     $ yarn start
     
-For building everything for production
-
+Building for production
+    
+    $ yarn
     $ yarn build
+    
+Running test
+
+    $ yarn
+    $ yarn test
 
 ## TODO items
 
 - Add tests with mocha
+- Add istanbul
 - Add persistence local storage
 - Add option to just show active items and not the completed items 
 
